@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -5,39 +8,47 @@ nav {
 }
 ul {
     display: flex;
+    gap: 20px;
     align-items: center;
 }
 li, a{ 
     list-style-type: none;
     text-decoration: none;
     color: white;
-    margin-left: 15px;   
 }
 h1 {
     color: white;
     font-size: 35px;
+    margin: 0;
 }
 .text1 {
     color: white;
 }
 .caja1 {
-    width: 400px;
-    height: 250px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
- 
+
 }
-button {
+.caja2 {
+    display: flex;
+}
+.boton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 10%;
     background-color: #3882f6;
     color: white;
     width: 100px;
     height: 30px;
+  
     
 }
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 35px;
     background-color: #1F2937;
 }
@@ -95,6 +106,46 @@ blockquote {
     font-weight: bold;
     font-size: 20px;
 }
+.final {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+   
+}
+.cajafinal {    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+    background-color:  #3882f6  ;
+}
+
+.boton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    border-radius: 10%;
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-color: white;
+    
+}
+.letrafinal {
+    order: 1;
+    
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+
 
 
 
@@ -108,15 +159,27 @@ blockquote {
     }
     .caja1 {
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .caja2 {
         margin-top: 10px;
+        align-items: center;
+        justify-content: center;
     }
     main {
         flex-direction: column;
     }
     blockquote {
         text-align: center;
+    }
+    .final {
+        flex-direction: column;
+      
+        text-align: center;
+    }
+    .cajafinal {
+        flex-direction: column;
     }
    
 }
