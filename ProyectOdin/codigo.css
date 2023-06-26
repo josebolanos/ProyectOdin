@@ -70,9 +70,33 @@ main {
     margin: 10px;
 }
 .box img {
-     border-radius: 5%;
+    border-radius: 5%;
     border: 3px solid #3882f6 ;
 }
+.notacita {
+    background-color: #c6cfdb;
+    display: flex;
+    justify-content: center;
+}
+blockquote {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+}
+.cita {
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+.autor {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
 
 
 
@@ -91,4 +115,8 @@ main {
     main {
         flex-direction: column;
     }
+    blockquote {
+        text-align: center;
+    }
+   
 }
